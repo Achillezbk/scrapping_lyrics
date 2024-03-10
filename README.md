@@ -1,7 +1,7 @@
 # scrapping_lyrics
 
 # Analyseur de Paroles
-Ce script Python est conçu pour analyser les paroles des chansons d'un artiste spécifique. Il récupère les paroles depuis un site web, les nettoie et produit une liste des mots les plus fréquemment utilisés par l'artiste. Ici, l'artiste ciblé est Patrick Bruel, son numéro dans l'api genius est xxxxx. Il suffit de changer le numéro de l'artiste pour utiliser le script sur l'artiste que l'on souhaite.
+Ce script Python est conçu pour analyser les paroles des chansons d'un artiste spécifique. Il récupère les paroles depuis un site web, les nettoie et produit une liste des mots les plus fréquemment utilisés par l'artiste. Ici, l'artiste ciblé est Patrick Bruel, son numéro dans l'api genius est 29743. Il suffit de changer le numéro de l'artiste pour utiliser le script sur l'artiste que l'on souhaite.
 
 ## Fonctions
 
