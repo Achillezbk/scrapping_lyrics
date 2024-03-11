@@ -3,13 +3,13 @@ import utils
 
 
 def print_full_lyrics(top_word: int = 10) -> list[tuple]:
-    """Description: Obtenir un top des mots les plus utilisés par l'artiste.
+    """Permet d'obtenir un top des mots les plus utilisés par l'artiste.
 
     Args:
-        top_word: (int) Taille souhaitée du top.
+        top_word (int, optional): Taille souhaitée du top. Defaults to 10.
 
-    Returns: (list[tuple]) Contenant les mots les plus utilisés par l'artiste.
-
+    Returns:
+        list[tuple]: Contenant les mots les plus utilisés par l'artiste.
     """
     full_lyrics = utils.get_all_clean_lyrics()
     full_lyrics = collections.Counter(full_lyrics)
@@ -17,4 +17,5 @@ def print_full_lyrics(top_word: int = 10) -> list[tuple]:
     return full_lyrics
 
 
-print(print_full_lyrics())
+top_lyrics = print_full_lyrics()
+print(top_lyrics)
